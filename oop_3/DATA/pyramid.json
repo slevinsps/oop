@@ -1,0 +1,38 @@
+{
+	"object_name": "pyramid",
+
+	"point": {
+		"id": 0,
+		"coordinates": [50, 0, -20]
+	},
+
+	"point": {
+		"id": 1,
+		"coordinates": [-50, 0, -20]
+	},
+
+	"point": {
+		"id": 2,
+		"coordinates": [0, 0, 20]
+	},
+
+	"point": {
+		"id": 3,
+		"coordinates": [0, 40, 0]
+	},
+
+	"link": {
+		"id": 0,
+		"connections": [1, 2]
+	},
+
+	"link": {
+		"id": 1,
+		"connections": [2]
+	},
+
+	"link": {
+		"id": 3,
+		"connections": [0, 1, 2]
+	}
+}

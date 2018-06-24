@@ -1,0 +1,23 @@
+﻿Построение начато 19.04.2018 16:37:07.
+     1>Проект "D:\temp\Sima\oop2_iter\oop_2\oop_2.vcxproj" в узле 2 (целевые объекты Build).
+       Файл проекта содержит ToolsVersion="15.0". Данный набор инструментов является неизвестным или отсутствует. Для устранения этой ошибки можно установить для данного набора инструментов соответствующую версию .NET Framework. Считается, что проект содержит ToolsVersion="4.0".
+     1>InitializeBuildStatus:
+         Обращение к "x64\Debug\oop_2.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\oop_2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt exceptions.cpp oop_2.cpp
+         oop_2.cpp
+     1>d:\temp\sima\oop2_iter\oop_2\clist.h(7): fatal error C1083: Не удается открыть файл включение: initializer_list: No such file or directory
+         exceptions.cpp
+     1>exceptions.cpp(9): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>exceptions.cpp(16): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>exceptions.cpp(17): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>exceptions.cpp(27): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>exceptions.cpp(36): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+     1>exceptions.cpp(37): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+         Создание кода...
+     1>Построение проекта "D:\temp\Sima\oop2_iter\oop_2\oop_2.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.16

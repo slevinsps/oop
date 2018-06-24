@@ -1,0 +1,10 @@
+﻿  oop_2.cpp
+d:\oop2_iter_1\oop2_iter\oop_2\clist_implem.h(58): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\oop2_iter_1\oop2_iter\oop_2\clist_implem.h(53): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\oop2_iter_1\oop2_iter\oop_2\oop_2.cpp(21): note: выполняется компиляция ссылки на экземпляр шаблон функции "myList::Clist<int>::Clist(::size_t,const T *)"
+          with
+          [
+              T=int
+          ]
+  d:\oop2_iter_1\oop2_iter\oop_2\oop_2.cpp(21): note: выполняется компиляция ссылки на экземпляр шаблон класс "myList::Clist<int>"
+  oop_2.vcxproj -> D:\oop2_iter_1\oop2_iter\Debug\oop_2.exe

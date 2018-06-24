@@ -1,0 +1,22 @@
+#ifndef ERRORS_H
+#define ERRORS_H
+
+#define OK 0
+#define EMPTY_POINTS -1
+#define DONT_CREATE_FILE -2
+#define DONT_OPEN_FILE -3
+#define ERROR_INPUT_ROT -4
+#define ERROR_INPUT_MOVE -5
+#define ERROR_INPUT_SCALE -6
+#define KOEF_SCALE_ZERO -7
+#define ERROR_READ_COUNT_POINTS -8
+#define ERROR_READ_POINTS -9
+#define ERROR_READ_COUNT_RIBS -10
+#define ERROR_READ_RIBS -11
+#define EMPTY_FILE_NAME -12
+#define INCORRECT_NUMBER_OF_RIBS -13
+#define INCORRECT_COMAND -14
+#define MEMORY_ERROR -15
+#define ERROR_READ_COUNT -16
+
+#endif // ERRORS_H

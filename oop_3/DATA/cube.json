@@ -1,0 +1,63 @@
+{
+	"object_name": "cube",
+
+	"point": {
+		"id": 0,
+		"coordinates": [-50, -50, -50]
+	},
+
+	"point": {
+		"id": 1,
+		"coordinates": [50, -50, -50]
+	},
+
+	"point": {
+		"id": 2,
+		"coordinates": [50, 50, -50]
+	},
+
+	"point": {
+		"id": 3,
+		"coordinates": [-50, 50, -50]
+	},
+
+	"point": {
+		"id": 4,
+		"coordinates": [-50, -50, 50]
+	},
+
+	"point": {
+		"id": 5,
+		"coordinates": [50, -50, 50]
+	},
+
+	"point": {
+		"id": 6,
+		"coordinates": [50, 50, 50]
+	},
+
+	"point": {
+		"id": 7,
+		"coordinates": [-50, 50, 50]
+	},
+
+	"link": {
+		"id": 0,
+		"connections": [1, 3, 4]
+	},
+
+	"link": {
+		"id": 2,
+		"connections": [1, 3, 6]
+	},
+
+	"link": {
+		"id": 5,
+		"connections": [4, 6, 1]
+	},
+
+	"link": {
+		"id": 7,
+		"connections": [4, 6, 3]
+	}
+}
